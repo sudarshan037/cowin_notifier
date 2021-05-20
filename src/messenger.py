@@ -1,7 +1,8 @@
 import configparser
+import traceback
 from datetime import datetime
 from pprint import pprint
-
+from time import time
 import pytz
 from telethon import TelegramClient
 
@@ -48,10 +49,21 @@ def send_message(username, result):
     pprint(result)
 
 
-def send_message_list(users, result):
+def send_message_list(users, result, timers):
     for center_id in result.keys():
         for user in users:
-            print("send_message:", user, result[center_id])
+            try:
+                if round(time(), 2) - timers[str(result[center_id]['pincode'])][user] > 30:
+                    timers[str(result[center_id]['pincode'])][user] = round(time(), 2)
+                    print("send_message:", user, result[center_id], timers[str(result[center_id]['pincode'])][user])
+            except KeyError:
+                timers[str(result[center_id]['pincode'])][user] = round(time(), 2)
+                print("send_message:", user, result[center_id], timers[str(result[center_id]['pincode'])][user])
+
+            # print(timers, result[center_id]['pincode'])
+            # timers[str(result[center_id]['pincode'])][user] = round(time(), 2)
+            # print("send_message:", user, result[center_id], timers[str(result[center_id]['pincode'])][user])
+    return timers
 
 
 if __name__ == "__main__":

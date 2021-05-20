@@ -26,7 +26,8 @@ def district_caller(district_id):
         data = r.json()
     except JSONDecodeError as e:
         data = {"centers": []}
-        time.sleep(120)
+        print("60 second sleep")
+        time.sleep(60)
     return data
 
 
@@ -39,10 +40,12 @@ def pincode_caller(pincode):
         'date': today.strftime("%d-%m-%Y")
     }
     r = get(url=url, params=params, headers=headers)
+    time.sleep(1)
     try:
         data = r.json()
     except JSONDecodeError as e:
         data = {"centers": []}
+        print("60 second sleep")
         time.sleep(60)
     return data
 
