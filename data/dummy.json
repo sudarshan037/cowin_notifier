@@ -1,0 +1,870 @@
+{
+  'centers': [
+    {
+      'address': 'Shyampura',
+      'block_name': 'Mandalgarh',
+      'center_id': 405388,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 75,
+      'name': 'PHC Shyampura',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 20,
+          'available_capacity_dose1': 20,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': 'ae2fa556-46a3-4a0d-8656-e493e8cf176f',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'BIJOLIYA',
+      'block_name': 'Mandalgarh',
+      'center_id': 704343,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 75,
+      'name': 'CHC BIJOLIYAN ( 18 TO 44 )',
+      'pincode': 311602,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 18,
+          'session_id': '3fca586c-4bcc-4446-959a-cef73ca9561a',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'ASIND',
+      'block_name': 'Asind',
+      'center_id': 704377,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'CHC Asind (18 TO 44)',
+      'pincode': 311301,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 18,
+          'session_id': '9ae13e51-9ebc-4cbf-bd91-5334ff931249',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'HSC Seedriyas Suwana',
+      'block_name': 'Suwana',
+      'center_id': 672753,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'HSC Seedriyas Suwana',
+      'pincode': 311001,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': 'ae4d1086-7c0f-4ffe-945f-fedbe3ab923c',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'BANERA',
+      'block_name': 'Banera',
+      'center_id': 704540,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'CHC Banera (18 TO 44)',
+      'pincode': 311401,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 18,
+          'session_id': '21e0ae33-2d95-4d6a-bf4f-574c63b4ea6a',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Kothiya',
+      'block_name': 'Shahpura',
+      'center_id': 404458,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'PHC Kothiya',
+      'pincode': 311023,
+      'sessions': [
+        {
+          'available_capacity': 15,
+          'available_capacity_dose1': 5,
+          'available_capacity_dose2': 10,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '56c0966b-5d58-46b4-9266-a92527c7b5d8',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        },
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': '066d4f5c-421a-4e01-a227-6cdd6dc93161',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Singoli',
+      'block_name': 'Mandalgarh',
+      'center_id': 405448,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'PHC Singoli',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 19,
+          'available_capacity_dose1': 19,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '5037c3f6-d8db-450b-8c9b-d2be1f592361',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'PHC Barundani Mandalgarh',
+      'block_name': 'Mandalgarh',
+      'center_id': 636311,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'PHC Barundani Mandalgarh',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 20,
+          'available_capacity_dose1': 20,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': 'f27fa850-2ad0-41d0-9a23-f881e9c1cc4c',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'KARERA',
+      'block_name': 'Mandal',
+      'center_id': 405087,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '11:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'CHC KARERA',
+      'pincode': 311804,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '1a068fc2-6267-42ff-a272-787335e41329',
+          'slots': [
+            '11:00AM-12:00PM',
+            '12:00PM-01:00PM',
+            '01:00PM-02:00PM',
+            '02:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Mahuwa',
+      'block_name': 'Mandalgarh',
+      'center_id': 405258,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'CHC MAHUWA',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 18,
+          'available_capacity_dose1': 18,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '5aafe326-dccd-45cb-8a64-50b582f92b83',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'KARERA',
+      'block_name': 'Mandal',
+      'center_id': 704337,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'CHC KARERA (18 To 44)',
+      'pincode': 311804,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 18,
+          'session_id': 'a8e813b0-34c8-40dc-baa1-a48f798deb95',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'PHC KHAMOR',
+      'block_name': 'Shahpura',
+      'center_id': 404439,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'PHC KHAMOR',
+      'pincode': 311201,
+      'sessions': [
+        {
+          'available_capacity': 20,
+          'available_capacity_dose1': 10,
+          'available_capacity_dose2': 10,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '21814b7d-3e1f-4f29-891e-17d86d6d2135',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        },
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': '67cb2015-d7e8-4f30-b43f-a14e86b32557',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'PHC RAJYAS',
+      'block_name': 'Shahpura',
+      'center_id': 404506,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'PHC RAJYAS',
+      'pincode': 311407,
+      'sessions': [
+        {
+          'available_capacity': 17,
+          'available_capacity_dose1': 7,
+          'available_capacity_dose2': 10,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '8dfb256b-cc62-4957-bc58-6ed1432570bf',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        },
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': 'c47a55e2-178d-4de9-a885-5bd44f790383',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Jalindri',
+      'block_name': 'Mandalgarh',
+      'center_id': 405429,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'PHC Jalindri',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 20,
+          'available_capacity_dose1': 20,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '6064ad8b-18ab-47af-be30-45adcb3a4d33',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'MANPURA',
+      'block_name': 'Mandalgarh',
+      'center_id': 405305,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 75,
+      'name': 'PHC MANPURA',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 19,
+          'available_capacity_dose1': 19,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': 'c9480ea3-09b9-4fb8-9759-08301310bdcc',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'ROPA PHC',
+      'block_name': 'Jahazpur',
+      'center_id': 553898,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'Ropa PHC',
+      'pincode': 311202,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '0daa2479-648e-42db-b75a-805d3175f617',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'CHC Sangriya',
+      'block_name': 'Shahpura',
+      'center_id': 404337,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'CHC Sangriya',
+      'pincode': 311023,
+      'sessions': [
+        {
+          'available_capacity': 30,
+          'available_capacity_dose1': 15,
+          'available_capacity_dose2': 15,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '3d074d81-4916-4f5e-9278-e259a05dd478',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        },
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': 'd42f46cc-c4f0-4df1-a4c1-1c398d17e40f',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Raila',
+      'block_name': 'Banera',
+      'center_id': 404944,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'PHC Raila Banera',
+      'pincode': 311024,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '11812f6c-fc13-46ee-8b9b-23d0a35f6d4c',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Rupaheli Khurd',
+      'block_name': 'Banera',
+      'center_id': 404958,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'PHC Rupaheli Khurd Banera',
+      'pincode': 311024,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '842eb05e-2d25-483a-bf08-4ddff74dce21',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Ladpura',
+      'block_name': 'Mandalgarh',
+      'center_id': 405374,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 75,
+      'name': 'PHC LADPURA Block Mandalgarh',
+      'pincode': 311604,
+      'sessions': [
+        {
+          'available_capacity': 18,
+          'available_capacity_dose1': 18,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '0fdd1def-7b4f-4b86-aa56-2dd8507940ed',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-06:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '18:00:00'
+    },
+    {
+      'address': 'MG Hospital Bhilwara',
+      'block_name': 'Urban Bhilwara',
+      'center_id': 570516,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'Old PMO Office MG Hospital',
+      'pincode': 311001,
+      'sessions': [
+        {
+          'available_capacity': 104,
+          'available_capacity_dose1': 54,
+          'available_capacity_dose2': 50,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '7795caac-cfda-4681-bfb4-95adb0381b35',
+          'slots': [
+            '09:00AM-12:00PM',
+            '12:00PM-03:00PM',
+            '03:00PM-06:00PM',
+            '06:00PM-08:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '20:00:00'
+    },
+    {
+      'address': 'RAIPUR BHILWARA',
+      'block_name': 'Raipur',
+      'center_id': 704355,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'CHC Raipur (18 TO 44)',
+      'pincode': 311803,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '20-05-2021',
+          'min_age_limit': 18,
+          'session_id': 'e7373dd9-3211-41dd-8ead-441b9a20786a',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'UPHC Kashipuri',
+      'block_name': 'Urban Bhilwara',
+      'center_id': 404903,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'UPHC Kashipuri',
+      'pincode': 311001,
+      'sessions': [
+        {
+          'available_capacity': 105,
+          'available_capacity_dose1': 55,
+          'available_capacity_dose2': 50,
+          'date': '20-05-2021',
+          'min_age_limit': 45,
+          'session_id': '172cacb4-cedf-4a57-acca-5bcf5ba629c6',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'Bachkheda',
+      'block_name': 'Shahpura',
+      'center_id': 553895,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 0,
+      'long': 0,
+      'name': 'Bachkheda PHC',
+      'pincode': 311404,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': '694aaa32-46cb-4145-b46e-bf13af740cd9',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'DHIKOLA',
+      'block_name': 'Shahpura',
+      'center_id': 553893,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'Dhikola PHC',
+      'pincode': 311404,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': '90d5820d-4bf7-4c0c-9456-e6dd48a9e75f',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    },
+    {
+      'address': 'PHC KANECHAN KALAN SHAHPURA BHILWARA',
+      'block_name': 'Shahpura',
+      'center_id': 404400,
+      'district_name': 'Bhilwara',
+      'fee_type': 'Free',
+      'from': '09:00:00',
+      'lat': 25,
+      'long': 74,
+      'name': 'PHC Kanechan Kalan',
+      'pincode': 311507,
+      'sessions': [
+        {
+          'available_capacity': 0,
+          'available_capacity_dose1': 0,
+          'available_capacity_dose2': 0,
+          'date': '21-05-2021',
+          'min_age_limit': 45,
+          'session_id': '2b3d60c5-5f74-4c4b-95e9-9f899ad94970',
+          'slots': [
+            '09:00AM-11:00AM',
+            '11:00AM-01:00PM',
+            '01:00PM-03:00PM',
+            '03:00PM-05:00PM'
+          ],
+          'vaccine': 'COVISHIELD'
+        }
+      ],
+      'state_name': 'Rajasthan',
+      'to': '17:00:00'
+    }
+  ]
+}
