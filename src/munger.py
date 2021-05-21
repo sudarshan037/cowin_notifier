@@ -16,10 +16,10 @@ def data_parser(data):
     results = {}
     for center in data['centers']:
         for session in center['sessions']:
-            if session['min_age_limit'] == 18 and session['available_capacity'] >= 0:
+            if session['min_age_limit'] == 45 and session['available_capacity'] > 0:
                 try:
                     results[str(center['pincode'])][str(center['center_id'])] = data_populator(center, session)
-                except KeyError as e:
+                except KeyError:
                     results[str(center['pincode'])] = {}
                     results[str(center['pincode'])][str(center['center_id'])] = data_populator(center, session)
     return results

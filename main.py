@@ -1,7 +1,6 @@
 import json
 import logging
-from pprint import pprint
-import traceback
+
 from src.caller import district_caller
 from src.messenger import send_message_list
 from src.munger import data_parser
@@ -16,15 +15,10 @@ def runner(district_ids, user_details):
             district_data[district_id] = data_parser(district_caller(district_id))
             for pincode in district_data[district_id]:
                 try:
-                    # print(user_details[str(pincode)], pincode)
-                    # pprint(district_data[district_id][pincode])
                     timers = send_message_list(user_details[str(pincode)],
                                                district_data[district_id][pincode],
                                                timers)
-                    # pprint(timers)
-                except KeyError as e:
-                    # traceback.print_exc()
-                    # print("ERROR:", district_data[district_id][pincode])
+                except KeyError:
                     continue
         # break
 

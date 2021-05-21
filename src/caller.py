@@ -8,7 +8,9 @@ from requests import get
 
 user_agents = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36']
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36\
+     (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+]
 today = date.today()
 date = today.strftime("%d-%m-%Y")
 
@@ -22,9 +24,10 @@ def district_caller(district_id):
         'date': date
     }
     r = get(url=url, params=params, headers=headers)
+    time.sleep(2)
     try:
         data = r.json()
-    except JSONDecodeError as e:
+    except JSONDecodeError:
         data = {"centers": []}
         print("60 second sleep")
         time.sleep(60)
@@ -43,7 +46,7 @@ def pincode_caller(pincode):
     time.sleep(1)
     try:
         data = r.json()
-    except JSONDecodeError as e:
+    except JSONDecodeError:
         data = {"centers": []}
         print("60 second sleep")
         time.sleep(60)
@@ -54,4 +57,6 @@ if __name__ == "__main__":
     # pprint(district_caller('523'))
     # pprint(pincode_caller('311001'))
     from munger import data_parser
-    pprint(data_parser(district_caller('523')))
+
+    pprint(data_parser(pincode_caller('226003')))
+    # pprint(data_parser(district_caller('523')))
