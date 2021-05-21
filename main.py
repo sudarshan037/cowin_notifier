@@ -1,5 +1,6 @@
 import json
 import logging
+import traceback
 
 from src.caller import district_caller
 from src.messenger import send_message_list
@@ -19,6 +20,7 @@ def runner(district_ids, user_details):
                                                district_data[district_id][pincode],
                                                timers)
                 except KeyError:
+                    traceback.print_exc()
                     continue
         # break
 

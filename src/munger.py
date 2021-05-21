@@ -20,6 +20,7 @@ def data_parser(data):
                 try:
                     results[str(center['pincode'])][str(center['center_id'])] = data_populator(center, session)
                 except KeyError:
+                    # traceback.print_exc()
                     results[str(center['pincode'])] = {}
                     results[str(center['pincode'])][str(center['center_id'])] = data_populator(center, session)
     return results

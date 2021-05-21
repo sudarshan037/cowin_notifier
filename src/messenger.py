@@ -1,4 +1,5 @@
 import configparser
+import traceback
 from datetime import datetime
 from pprint import pprint
 from time import time
@@ -14,7 +15,7 @@ class User:
     def __init__(self):
         # Reading configs
         config = configparser.ConfigParser()
-        config.read("config.ini")
+        config.read("src/config.ini")
 
         # setting config values
         self.api_id = config['Telegram']['api_id']
@@ -45,7 +46,7 @@ def send_message(username, result):
     with client:
         client.loop.run_until_complete(client.send_message(
             username,
-            result))
+            str(result)))
     pprint(result)
 
 
@@ -70,6 +71,7 @@ def send_message_list(users, result, timers):
                     send_message(user, result[center_id])
                     print("send_message: Updated Timer", user, result[center_id])
         except KeyError:
+            traceback.print_exc()
             timers[pincode][center_id] = toc()
             for user in users:
                 send_message(user, result[center_id])
