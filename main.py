@@ -20,7 +20,7 @@ def runner(district_ids, user_details):
                                                district_data[district_id][pincode],
                                                timers)
                 except KeyError:
-                    traceback.print_exc()
+                    # traceback.print_exc()
                     continue
         # break
 

@@ -57,6 +57,5 @@ if __name__ == "__main__":
     # pprint(district_caller('523'))
     # pprint(pincode_caller('311001'))
     from munger import data_parser
-
-    pprint(data_parser(pincode_caller('226003')))
+    pprint(data_parser(pincode_caller('311022')))
     # pprint(data_parser(district_caller('523')))

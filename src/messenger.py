@@ -40,6 +40,7 @@ class User:
 
 
 def send_message(username, result):
+    print("sending {0} to {1}".format(result, username))
     user = User()
     user.set_client()
     client = user.get_client()
@@ -71,7 +72,7 @@ def send_message_list(users, result, timers):
                     send_message(user, result[center_id])
                     print("send_message: Updated Timer", user, result[center_id])
         except KeyError:
-            traceback.print_exc()
+            # traceback.print_exc()
             timers[pincode][center_id] = toc()
             for user in users:
                 send_message(user, result[center_id])
