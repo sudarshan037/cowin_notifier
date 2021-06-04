@@ -48,7 +48,7 @@ def send_message(username, result):
         client.loop.run_until_complete(client.send_message(
             username,
             str(result)))
-    pprint(result)
+    # pprint(result)
 
 
 def tic(user, center_id, result, timers):
